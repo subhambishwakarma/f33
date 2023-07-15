@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Restaurant Name</h1>
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#order">Order</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h2>Welcome to Our Restaurant</h2>
+      <p>Discover our delicious menu and enjoy a memorable dining experience.</p>
+      <a href="#menu" class="btn">View Menu</a>
+    </div>
+    <img src="/Screenshot 2023-07-14 at 11.14 1.jpg" style="height: 400px;margin-left: 15px; padding: 10px;" alt="Restaurant Hero Image">
+  </section>
+
+  <section id="menu">
+    <div class="container">
+      <h2>Our Menu</h2>
+      <div id="menu-items"></div>
+    </div>
+    <img src="/Group 7.png" alt="Restaurant Menu Image">
+    <img src="/Group 7.png" alt="Restaurant Menu Image">
+    <img src="/Group 7.png" alt="Restaurant Menu Image">
+    <img src="/Group 7.png" alt="Restaurant Menu Image">
+  </section>
+
+  <section id="order">
+    <div class="container">
+      <h2>Place Your Order</h2>
+      <button onclick="takeOrder()">Place Order</button>
+    </div>
+    <img src="/how-ot-order.gif" alt="Place Order Image">
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>For reservations or inquiries, please contact us using the details below:</p>
+      <p>Phone: 123-456-7890</p>
+      <p>Email: info@example.com</p>
+    </div>
+    <!-- <img src="/Contact-Us.webp" style="height: 150px; width: 500px;" alt="Contact Us Image"> -->
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Restaurant Name. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
